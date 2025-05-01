@@ -1,9 +1,9 @@
 <?php
 
-define('DB_HOST', 'db-cloud.czgog2qqq1ar.us-east-1.rds.amazonaws.com');
-define('DB_USER', 'root');
-define('DB_PASS', 'assignment-pass');
-define('DB_NAME', 'db-cloud');
+define('DB_HOST', 'lab-db.cipswctowybw.us-east-1.rds.amazonaws.com');
+define('DB_USER', 'main');
+define('DB_PASS', 'lab-password');
+define('DB_NAME', 'lab');
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
